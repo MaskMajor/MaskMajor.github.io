@@ -2,18 +2,32 @@
 <html>
     <head>
         <title>Silly Clicker Website</title>
-		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+		
+			<style> 
+				#balls {position : absolute;
+						z-index : 2;
+						left:-30px;
+						top:50px;
+				}
+				body h1 {text-align:center;}
+			</style>
+		
     </head>
 
     <body>
 		
         <!--Hi-->
-        <h1>Cookie clicker right here</h1>
+		<h1>Cookie clicker right here</h1>
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
 		
         <div>
-			<iframe src="bin/legame.html" width="640" height="480" frameborder="0"></iframe>
-			<img src="assets/weirdasscat.gif" alt="CC">
+			<center>
+				<iframe src="bin/legame.html" width="640" height="480" frameborder="0"></iframe>
+			</center>
+			<img id ="balls" src="assets/weirdasscat.gif" alt="CC">
         </div>		
+		
 		
 		<h2>Linkuri:</h2>
         <p>https://developer.mozilla.org/en-US/docs/Web/HTML</p>
