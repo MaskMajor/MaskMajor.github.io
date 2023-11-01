@@ -1,50 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="style.css" rel="stylesheet"> <!--Ii spunem programului sa mearga si sa ia din style.css-->
+
+    <link href="signUp.css" rel="stylesheet"> <!--Ii spunem programului sa mearga si sa ia din style.css-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Me Up</title>
 	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    
-    <style>
-        /*input {
-            margin: 10px;
-            padding: 3px;
-            border-width: thick;
-            border-color: azure;
 
-            *{
-                margin: 10px;
-            }
-
-            body {
-                background-color: rgb(255, 0, 0);
-            }
-
-            .text-style{
-                font-size: 20px;
-                font-family: 'Courier New', Courier, monospace;
-                color: blue;
-            }
-        }
-        
-        yea dont do all of this it's too much work*/
-    </style>
 </head>
 <body>
-    <img src="assets/logo.png" alt="Balls">
-    <h1 style="color: rgb(207, 102, 27); font-size: 32px;">
+    <div class="container">
+
+    <img class="pos-logo"src="assets/logo.png" alt="Balls">
+    <h1 class="pos-title"style="color: rgb(207, 102, 27); font-size: 32px;">
         Make a brand new account
     </h1>
-    <input type="text" placeholder="Enter an unique username">
-    <input type="email" placeholder="Put in your mother's email!">
-    <input type="password" placeholder="Put a password that I wont steal!">
-    <input type="password" placeholder="Put a password that I wont steal!">
-    <button>Let me in!</button>
+    <input class="pos-username" type="text" placeholder="Enter an unique username">
+    <input class="pos-email" type="email" placeholder="Put in your mother's email!">
+    <input class="pos-password"type="password" placeholder="Put a password that I wont steal!">
+    <input class="pos-password-confirm" type="password" placeholder="Put a password that I wont steal!">
+    <button class="pos-button">Let me in!</button>
+    
+    <div class="pos-text">
     <p class="text-style">If you already have an account, click <a href="./signin.html">here</a></p>
     <p class="text-style">Click <a href="./index.html">here</a> if you want to skip the gay ass log in</p>
-	
+	</div>
+    </div>
 </body>
 </html>
 
